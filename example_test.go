@@ -22,7 +22,7 @@ import (
 	"crypto/ed25519"
 	"fmt"
 
-	pasetov4 "zntr.io/paseto/v4"
+	pasetov4 "github.com/kumsumit/paseto/v4"
 )
 
 func ExamplePasetoV4LocalWithoutFooter() {

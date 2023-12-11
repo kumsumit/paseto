@@ -55,7 +55,7 @@ More examples - [here](example_test.go)
 ❯ go test -bench=. -test.benchtime=1s
 goos: darwin
 goarch: arm64
-pkg: zntr.io/paseto/v3
+pkg: github.com/kumsumit/paseto/v3
 Benchmark_Paseto_Encrypt-10    	   74833	     14775 ns/op	    8274 B/op	      59 allocs/op
 Benchmark_Paseto_Decrypt-10    	   84738	     14189 ns/op	    8050 B/op	      59 allocs/op
 Benchmark_Paseto_Sign-10       	    7467	    157376 ns/op	    9059 B/op	      86 allocs/op
@@ -70,7 +70,7 @@ ok  	zntr.io/paseto/v3	5.373s
 ❯ go test -bench=. -test.benchtime=1s
 goos: darwin
 goarch: arm64
-pkg: zntr.io/paseto/v4
+pkg: github.com/kumsumit/paseto/v4
 Benchmark_Paseto_Encrypt-10    	  461580	      2580 ns/op	    2288 B/op	      12 allocs/op
 Benchmark_Paseto_Decrypt-10    	  554426	      2139 ns/op	    2064 B/op	      12 allocs/op
 Benchmark_Paseto_Sign-10       	   47422	     24875 ns/op	     928 B/op	       4 allocs/op

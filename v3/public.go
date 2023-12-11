@@ -28,8 +28,8 @@ import (
 	"fmt"
 	"math/big"
 
-	"zntr.io/paseto/internal/common"
-	"zntr.io/paseto/v3/internal/rfc6979"
+	"github.com/kumsumit/paseto/internal/common"
+	"github.com/kumsumit/paseto/v3/internal/rfc6979"
 )
 
 // Sign a message (m) with the private key (sk).

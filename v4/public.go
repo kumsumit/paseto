@@ -25,7 +25,7 @@ import (
 	"errors"
 	"fmt"
 
-	"zntr.io/paseto/internal/common"
+	"github.com/kumsumit/paseto/internal/common"
 )
 
 // Sign a message (m) with the private key (sk).

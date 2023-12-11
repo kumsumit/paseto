@@ -29,7 +29,7 @@ import (
 	"math/big"
 	"testing"
 
-	"zntr.io/paseto/v3/internal/rfc6979"
+	"github.com/kumsumit/paseto/v3/internal/rfc6979"
 )
 
 type ecdsaFixture struct {

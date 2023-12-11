@@ -23,7 +23,7 @@ import (
 
 	"golang.org/x/crypto/blake2b"
 
-	"zntr.io/paseto/internal/common"
+	"github.com/kumsumit/paseto/internal/common"
 )
 
 func kdf(key *LocalKey, n []byte) (ek, n2, ak []byte, err error) {

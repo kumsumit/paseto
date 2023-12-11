@@ -1,4 +1,4 @@
-module zntr.io/paseto
+module github.com/kumsumit/paseto
 
 go 1.21.5
 

@@ -26,7 +26,7 @@ import (
 
 	"golang.org/x/crypto/hkdf"
 
-	"zntr.io/paseto/internal/common"
+	"github.com/kumsumit/paseto/internal/common"
 )
 
 func kdf(key *LocalKey, n []byte) (ek, n2, ak []byte, err error) {
